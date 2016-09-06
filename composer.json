@@ -9,6 +9,13 @@
             "email": "hello@vinkla.com"
         }
     ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kit-kat1/elogram"
+        }
+    ],
     "require": {
         "php": "^5.6.4 || ^7.0",
         "illuminate/contracts": "5.1.* || 5.2.* || 5.3.*",
@@ -17,13 +24,6 @@
         "graham-campbell/manager": "^2.4",
         "larabros/elogram": "dev-master"
     },
-    "repositories":
-    [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Kit-kat1/elogram"
-        }
-    ],
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
         "mockery/mockery": "^0.9.5",
