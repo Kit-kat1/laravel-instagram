@@ -15,8 +15,15 @@
         "illuminate/session": "5.1.* || 5.2.* || 5.3.*",
         "illuminate/support": "5.1.* || 5.2.* || 5.3.*",
         "graham-campbell/manager": "^2.4",
-        "larabros/elogram": "^1.1"
+        "larabros/elogram": "dev-master"
     },
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kit-kat1/elogram"
+        }
+    ],
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
         "mockery/mockery": "^0.9.5",
